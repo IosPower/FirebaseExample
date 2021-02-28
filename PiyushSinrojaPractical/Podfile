@@ -1,0 +1,21 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'PiyushSinrojaPractical' do
+ 
+pod 'IQKeyboardManagerSwift'
+
+pod 'ReachabilitySwift'
+pod 'SwiftyJSON'
+pod 'SVProgressHUD'
+pod 'JVFloatLabeledTextField'
+pod 'Kingfisher'
+pod 'DropDown', :git=> 'https://github.com/AssistoLab/DropDown.git'
+
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'Firebase/Core'
+
+end
